@@ -14,8 +14,6 @@
 		4331C4762761A93600B0FC5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4331C4752761A93600B0FC5B /* Assets.xcassets */; };
 		4331C4792761A93600B0FC5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4331C4772761A93600B0FC5B /* LaunchScreen.storyboard */; };
 		4331C4842761A93700B0FC5B /* TriangleTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4331C4832761A93700B0FC5B /* TriangleTestAppTests.swift */; };
-		4331C48E2761A93700B0FC5B /* TriangleTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4331C48D2761A93700B0FC5B /* TriangleTestAppUITests.swift */; };
-		4331C4902761A93700B0FC5B /* TriangleTestAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4331C48F2761A93700B0FC5B /* TriangleTestAppUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +45,6 @@
 		4331C47F2761A93700B0FC5B /* TriangleTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriangleTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4331C4832761A93700B0FC5B /* TriangleTestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleTestAppTests.swift; sourceTree = "<group>"; };
 		4331C4892761A93700B0FC5B /* TriangleTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriangleTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4331C48D2761A93700B0FC5B /* TriangleTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleTestAppUITests.swift; sourceTree = "<group>"; };
-		4331C48F2761A93700B0FC5B /* TriangleTestAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleTestAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +77,6 @@
 			children = (
 				4331C46B2761A93100B0FC5B /* TriangleTestApp */,
 				4331C4822761A93700B0FC5B /* TriangleTestAppTests */,
-				4331C48C2761A93700B0FC5B /* TriangleTestAppUITests */,
 				4331C46A2761A93100B0FC5B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -116,15 +111,6 @@
 				4331C4832761A93700B0FC5B /* TriangleTestAppTests.swift */,
 			);
 			path = TriangleTestAppTests;
-			sourceTree = "<group>";
-		};
-		4331C48C2761A93700B0FC5B /* TriangleTestAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4331C48D2761A93700B0FC5B /* TriangleTestAppUITests.swift */,
-				4331C48F2761A93700B0FC5B /* TriangleTestAppUITestsLaunchTests.swift */,
-			);
-			path = TriangleTestAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,8 +262,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4331C4902761A93700B0FC5B /* TriangleTestAppUITestsLaunchTests.swift in Sources */,
-				4331C48E2761A93700B0FC5B /* TriangleTestAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
