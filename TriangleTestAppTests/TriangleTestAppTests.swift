@@ -30,7 +30,7 @@ class TriangleTestAppTests: XCTestCase {
     
     /// Function untuk memeriksa jika semua inputan bernilai sama, kembalikan kalimat segitiga sama sisi
     func testDetectEquilateralTriangle() {
-        XCTAssertEqual(try detectTriangle(5, 2, 2), "Segitiga sama sisi")
+        XCTAssertEqual(try detectTriangle(7, 2, 2), "Segitiga sama sisi")
     }
     
     /// Function untuk memerika jika dua inputan bernilai sama, kembalikan kalimat segitiga sama kaki
