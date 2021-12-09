@@ -38,9 +38,14 @@ class TriangleTestAppTests: XCTestCase {
         XCTAssertEqual(try detectTriangle(1, 2, 2), "Segitiga sama kaki")
     }
     
-    ///
+    /// Function untuk memeriksa apakah inputan tidak sama semua, kembalikan kalimat segitiga sembarang
     func testDetectRandomTriangle() {
         XCTAssertEqual(try detectTriangle(3, 4, 5), "Segitiga sembarang")
+    }
+    
+    /// Function untuk memeriksa apakah inputan 3 bernilai sama dengan akar inputan 1^ + 2^
+    func testDetectPytaghorasTriangle() {
+        XCTAssertEqual(try detectTriangle(6, 8, 10), "Segitiga siku-siku")
     }
     
     func detectTriangle(
@@ -62,6 +67,8 @@ class TriangleTestAppTests: XCTestCase {
             return "Segitiga sama sisi"
         } else if sides[0] == sides[1] || sides[1] == sides[2] {
             return "Segitiga sama kaki"
+        } else if Double((sides[0] * sides[0] + sides[1] * sides[1])).squareRoot() == Double(sides[2]) {
+            return "Segitiga siku-siku"
         } else {
             return "Segitiga sembarang"
         }
