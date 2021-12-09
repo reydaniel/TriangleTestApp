@@ -1,4 +1,0 @@
-language: swift
-xcode_project: TriangleTestApp.xcodeproj # path to your xcodeproj folder
-xcode_scheme: TriangleTestApp
-xcode_destination: platform=iOS Simulator,OS=15.0,name=iPhone 13
